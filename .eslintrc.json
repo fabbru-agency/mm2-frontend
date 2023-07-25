@@ -2,7 +2,7 @@
   "plugins": ["@typescript-eslint"],
   "extends": [
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@§ypescript-eslint/recommended",
     "prettier"
   ],
   "rules": {
