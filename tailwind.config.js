@@ -18,6 +18,20 @@ module.exports = {
       },
       white: "#FFFFFF"
     },
+    fontSize: {
+      xs: ['14px'],
+      sm: ['16px'],
+      md: ['18px'],
+      lg: ['20px'],
+      xl: ['24px'],
+      '2xl': ['40px'],
+      '3xl': ['48px'],
+      '4xl': ['56px'],
+      '5xl': ['64px'],
+    },
+    fontFamily: {
+      bahnschrift: 'Bahnschrift, sans-serif'
+    },
     extend: {},
   },
   plugins: [],
