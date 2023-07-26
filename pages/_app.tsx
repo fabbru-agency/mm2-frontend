@@ -1,4 +1,4 @@
-import { GlobalContextProvider } from '@/contexts/globalContext'
+import { GlobalContextProvider } from '@/contexts/global'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/globals.css'
