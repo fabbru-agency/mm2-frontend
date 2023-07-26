@@ -32,7 +32,11 @@ module.exports = {
     fontFamily: {
       bahnschrift: 'Bahnschrift, sans-serif'
     },
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'maxWidth': 'max-width'
+      }
+    },
   },
   plugins: [],
 }

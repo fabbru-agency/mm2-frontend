@@ -1,9 +1,9 @@
 import { GlobalContextProvider } from '@/contexts/globalContext'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import Layout from '@/components/Layout'
 import '../styles/globals.css'
 import { DefaultSeo } from 'next-seo'
+import Layout from '@/components/layout/Layout'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

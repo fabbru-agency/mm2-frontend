@@ -15,6 +15,7 @@ export default function Hero() {
         slidesPerView={1}
         grabCursor={true}
         speed={1200}
+        lazyPreloadPrevNext={5}
         className="h-screen"
       >
         <SwiperSlide
@@ -29,7 +30,7 @@ export default function Hero() {
             backgroundAttachment: 'fixed',
           }}
         >
-          <div className="container mx-auto flex pb-5 items-start justify-end flex-col h-full text-white gap-1">
+          <div className="container mx-auto flex pb-10 items-start justify-end flex-col h-full text-white gap-1">
             <h3 className="text-xl font-bold">Name project</h3>
             <span className="text-xs font-light">2023, Lisboa</span>
           </div>
@@ -46,11 +47,11 @@ export default function Hero() {
             backgroundAttachment: 'fixed',
           }}
         >
-          <div className="container mx-auto flex pb-5 items-start justify-end flex-col h-full text-white gap-1">
+          <div className="container mx-auto flex pb-10 items-start justify-end flex-col h-full text-white gap-1">
             <h3 className="text-xl font-bold">Name project</h3>
             <span className="text-xs font-light">2023, Lisboa</span>
           </div>
-        </SwiperSlide>{' '}
+        </SwiperSlide>
         <SwiperSlide
           className="relative"
           style={{
@@ -63,7 +64,7 @@ export default function Hero() {
             backgroundAttachment: 'fixed',
           }}
         >
-          <div className="container mx-auto flex pb-5 items-start justify-end flex-col h-full text-white gap-1">
+          <div className="container mx-auto flex pb-10 items-start justify-end flex-col h-full text-white gap-1">
             <h3 className="text-xl font-bold">Name project</h3>
             <span className="text-xs font-light">2023, Lisboa</span>
           </div>

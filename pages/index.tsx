@@ -1,7 +1,11 @@
-import Hero from '@/components/Hero'
-import { sanityClient } from '@/lib/sanity'
 import { ISanityContent } from '@/types/Sanity'
 import { NextSeo } from 'next-seo'
+
+import About from '@/components/sections/About'
+import Hero from '@/components/sections/Hero'
+import Services from '@/components/sections/Services'
+import Projects from '@/components/sections/Projects'
+
 
 export default function Page({ projects }: ISanityContent) {
   return (
@@ -11,6 +15,9 @@ export default function Page({ projects }: ISanityContent) {
           description="Home page description of the page"
       />
       <Hero />
+      <About />
+      <Services />
+      <Projects />
     </>
   )
 }
